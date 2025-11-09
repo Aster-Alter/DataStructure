@@ -32,4 +32,9 @@ class CircularQueue:
             print(f"{self.data[idx]} ",end="")
         print("")
 
-rep=1
+rep,i,QueueList=1,0,{i:[] for i in range(1,6)}
+# while rep:
+#     todo=int(input("실행: [1] 새 큐 [2] 큐 삭제 [3] 큐 목록 [4] 큐 선택\n->"))
+#     if todo==1:
+#         while 
+print(QueueList)
